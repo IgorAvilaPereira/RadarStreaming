@@ -28,6 +28,7 @@ O projeto requer Python 3.12 ou superior. No terminal, na pasta do projeto:
    source .venv/bin/activate
    python -m pip install --upgrade pip
    python -m pip install flet-cli
+   python -m pip install httpx2
    ```
 
 4. Gere e copie o APK para o diretório de entrega:
