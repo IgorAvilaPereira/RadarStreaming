@@ -1,0 +1,30 @@
+[project]
+name = "radar-de-streaming"
+version = "1.0.0"
+description = "Descubra filmes e séries alinhados ao seu perfil e compare o custo-benefício mensal dos serviços de streaming."
+requires-python = ">=3.12"
+authors = [
+    { name = "Tablet Do Igor", email = "tabletdoigor1987@gmail.com" }
+]
+dependencies = [
+    "flet",
+    "httpx2"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Radar de Streaming"
+
+[tool.flet]
+org = "dev.flet"
+company = "Tablet Do Igor"
+copyright = "Copyright (C) 2026 by Tablet Do Igor"
+
+[tool.flet.app]
+path = "src"

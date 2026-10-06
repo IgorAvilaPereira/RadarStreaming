@@ -1,0 +1,1 @@
+O APK será colocado aqui ao executar `bash scripts/build_android.sh` na raiz do projeto. Nome de saída: `radar-de-streaming.apk`.
